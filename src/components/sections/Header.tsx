@@ -22,26 +22,26 @@ const NavBar = () => {
 
   return (
     <>
-      <div className="items-center gap-2 md:gap-5 flex mt-20 mb-20 ">
-        <MyImage className="rounded-full size-18 md:size-24" />
+      <div className="items-center gap-4 md:gap-7 flex mt-20 mb-20 ">
+        <MyImage className="rounded-full size-16 md:size-24" />
         <div className="flex-1">
-          <h1 className="text-lg font-medium text-neutral-800 dark:text-neutral-200">
+          <h1 className="text-sm md:text-lg font-medium text-neutral-800 dark:text-neutral-200">
             {t("name")}
           </h1>
-          <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+          <p className="text-neutral-600 dark:text-neutral-400 text-sm md:text-lg">
             {t("title")}
           </p>
           <Link
             href={"https://www.verceel.me/"}
             target="blank"
-            className="bg-neutral-300 px-2 py-[2px] hover:opacity-80 text-neutral-600 text-sm rounded-full 
+            className="bg-neutral-300 px-2 py-0.5 hover:opacity-80 text-neutral-600 text-xs md:text-sm rounded-full 
             dark:bg-neutral-600 dark:text-neutral-400"
           >
             {t("link")}
           </Link>
         </div>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-0.5 md:gap-2">
           <TooltipProvider>
             <Tooltip delayDuration={250}>
               <TooltipTrigger>

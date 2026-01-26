@@ -11,11 +11,11 @@ export default function BackgroundLayout({
     <div className="relative min-h-screen w-full select-none">
       <div className="fixed inset-0 -z-10">
         <Noise
-          patternSize={400}
+          patternSize={600}
           patternScaleX={2}
           patternScaleY={2}
           patternRefreshInterval={2}
-          patternAlpha={10}
+          patternAlpha={8}
         />
       </div>
 
