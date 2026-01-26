@@ -8,21 +8,18 @@ export default function BackgroundLayout({
   children: ReactNode;
 }) {
   return (
-    <div className="relative min-h-screen w-full">
-  <div className="fixed inset-0 -z-10">
-    <Noise
-      patternSize={300}
-      patternScaleX={2}
-      patternScaleY={2}
-      patternRefreshInterval={2}
-      patternAlpha={20}
-    />
-  </div>
+    <div className="relative min-h-screen w-full select-none">
+      <div className="fixed inset-0 -z-10">
+        <Noise
+          patternSize={400}
+          patternScaleX={2}
+          patternScaleY={2}
+          patternRefreshInterval={2}
+          patternAlpha={10}
+        />
+      </div>
 
-  <div className="relative z-10">
-    {children}
-  </div>
-</div>
-
+      <div className="relative z-10">{children}</div>
+    </div>
   );
 }
