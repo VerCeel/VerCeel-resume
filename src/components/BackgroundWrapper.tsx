@@ -1,6 +1,7 @@
 "use client";
 import { ReactNode } from "react";
 import Noise from "./Noise";
+import AnimatedBackground from "./AnimatedBackground";
 
 export default function BackgroundLayout({
   children,
@@ -9,6 +10,7 @@ export default function BackgroundLayout({
 }) {
   return (
     <div className="relative min-h-screen w-full select-none">
+      <AnimatedBackground />
       <div className="fixed inset-0 -z-10">
         <Noise
           patternSize={600}
