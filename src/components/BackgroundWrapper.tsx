@@ -9,7 +9,7 @@ export default function BackgroundLayout({
   children: ReactNode;
 }) {
   return (
-    <div className="relative min-h-screen w-full select-none">
+    <div className="relative min-h-screen w-full select-none bg-white/50 dark:bg-black/50">
       <AnimatedBackground />
       <div className="fixed inset-0 -z-10">
         <Noise

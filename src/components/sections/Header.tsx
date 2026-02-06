@@ -39,6 +39,15 @@ const NavBar = () => {
           >
             {t("link")}
           </Link>
+          <Link
+            href={"https://doc.verceel.me/"}
+            target="blank"
+            className="bg-neutral-300 px-2 py-0.5 ml-2 hover:opacity-80 text-neutral-600 text-xs md:text-sm rounded-full 
+            dark:bg-neutral-600 dark:text-neutral-400"
+          >
+            doc/
+          </Link>
+          
         </div>
 
         <div className="flex items-center gap-0.5 md:gap-2">
