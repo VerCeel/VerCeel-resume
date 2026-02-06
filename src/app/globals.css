@@ -142,9 +142,9 @@ body {
 }
 
 @keyframes move-slow {
-  0% { transform: translate(0, 0) rotate(0deg); }
-  50% { transform: translate(-120px, 100px) rotate(180deg); }
-  100% { transform: translate(0, 0) rotate(360deg); }
+  0% { transform: translate(-120px, 10px) ; }
+  50% { transform: translate(-120px, 100px) ; }
+  100% { transform: translate(-80px, 100px) ; }
 }
 
 .animate-move {
