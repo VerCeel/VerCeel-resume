@@ -47,7 +47,6 @@ const NavBar = () => {
           >
             doc/
           </Link>
-          
         </div>
 
         <div className="flex items-center gap-0.5 md:gap-2">
@@ -69,28 +68,16 @@ const NavBar = () => {
                   </Button>
                 </Link>
               </TooltipTrigger>
-              <TooltipContent className="bg-neutral-200 dark:bg-neutral-800 select-none text-neutral-800 dark:text-neutral-200 px-3 py-2 rounded-md mt-2" side="bottom">
+              <TooltipContent
+                className="bg-neutral-200 dark:bg-neutral-800 select-none text-neutral-800 dark:text-neutral-200 px-3 py-2 rounded-md mt-2"
+                side="bottom"
+              >
                 <p>Download PDF</p>
               </TooltipContent>
             </Tooltip>
           </TooltipProvider>
-
-          <TooltipProvider>
-             <Tooltip delayDuration={250}>
-              <TooltipTrigger>
-                  <SwitchLanguage />
-              </TooltipTrigger>
-              <TooltipContent className="bg-neutral-200 dark:bg-neutral-800 select-none text-neutral-800 dark:text-neutral-200 px-3 py-2 rounded-md mt-2" side="bottom">
-                <p>Switch Language</p>
-              </TooltipContent>
-             </Tooltip>
-          </TooltipProvider>
-          
-          
-          <TooltipProvider>
-             <Tooltip delayDuration={250}>
-              <TooltipTrigger>
-                  <Button
+          <SwitchLanguage />
+          <Button
             className="cursor-pointer"
             size="icon"
             variant="ghost"
@@ -98,12 +85,6 @@ const NavBar = () => {
           >
             {theme === "dark" ? <Sun /> : <Moon />}
           </Button>
-              </TooltipTrigger>
-              <TooltipContent className="bg-neutral-200 dark:bg-neutral-800 select-none text-neutral-800 dark:text-neutral-200 px-3 py-2 rounded-md mt-2" side="bottom">
-                <p>Dark/Light</p>
-              </TooltipContent>
-             </Tooltip>
-          </TooltipProvider>
         </div>
       </div>
     </>

@@ -12,13 +12,13 @@
     "title": "EXPERIENCE PROFESSIONNELLE",
     "items": [
       {
-        "period": "Mars 2025 – Août 2025",
+        "period": "03/25 – 08/25",
         "position": "Stage QA Automation Test – Capgemini – Casablanca",
         "type": "Stage",
         "description": "• Rédaction de cas de test / plans de test et exécution (tests fonctionnels, régression).\n• Automatisation des tests (Selenium, Robot Framework, scripts CI/CD).\n• Reporting et gestion des anomalies (Jira, défaut tracking) + participation aux revues et réunions Agile."
       },
       {
-        "period": "Septembre 2022 – Décembre 2024",
+        "period": "09/22 – 12/24",
         "position": "Développeur Full-Stack – ABS Security – Alfortville",
         "type": "Alternance",
         "description": "• Développement de site web (PHP, JavaScript, Bootstrap) et intégration de CMS (WordPress).\n• Création de supports publicitaires pour les réseaux sociaux afin d'accroître la visibilité et la clientèle."
@@ -29,13 +29,13 @@
     "title": "FORMATION",
     "items": [
       {
-        "period": "Septembre 2025 - Juin 2026",
+        "period": "09/25 - 06/26",
         "institution": "BACHELOR INGÉNIEUR DU WEB – ESGI Paris",
         "type": "Formation en alternance",
         "description": "• Programmation : PHP8, SASS, jQuery, JavaScript, TypeScript, React.js, Node.js (et architectures type MVC).\n• Conception et gestion de bases de données SQL / bases de données relationnelles.\n• Git / Docker."
       },
       {
-        "period": "Septembre 2022 - Juin 2024",
+        "period": "09/22 - 06/24",
         "institution": "BTS SIO SLAM - F2I paris",
         "type": "Formation en alternance",
         "description": "• Programmation : Java, Python, PHP, C, C#, JavaScript.\n• Conception et gestion de bases de données (SQL, MySQL) / Analyse et conception (UML / Merise)."

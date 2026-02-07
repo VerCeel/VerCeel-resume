@@ -12,13 +12,19 @@
     "title": "PROFESSIONAL EXPERIENCE",
     "items": [
       {
-        "period": "March 2025 – August 2025",
+        "period": "01/26 – ",
+        "position": "Fullstack Developer Intern – SVT Communication – Villebon-sur-Yvette",
+        "type": "Internship",
+        "description": "• Writing and executing test cases / test plans (functional & regression testing).\n• Test automation (Selenium, Robot Framework, CI/CD scripts).\n• Reporting and bug tracking (Jira, defect tracking) + participation in Agile reviews and meetings."
+      },
+      {
+        "period": "03/25 – 08/25",
         "position": "QA Automation Test Intern – Capgemini – Casablanca",
         "type": "Internship",
         "description": "• Writing and executing test cases / test plans (functional & regression testing).\n• Test automation (Selenium, Robot Framework, CI/CD scripts).\n• Reporting and bug tracking (Jira, defect tracking) + participation in Agile reviews and meetings."
       },
       {
-        "period": "September 2022 – December 2024",
+        "period": "09/22 – 12/24",
         "position": "Full-Stack Developer – ABS Security – Alfortville",
         "type": "Work-study",
         "description": "• Website development (PHP, JavaScript, Bootstrap) and CMS integration (WordPress).\n• Creation of digital marketing materials for social media to boost visibility and client acquisition."
@@ -29,13 +35,13 @@
     "title": "EDUCATION",
     "items": [
       {
-        "period": "September 2025 - June 2026",
+        "period": "09/25 - 06/26",
         "institution": "BACHELOR IN WEB ENGINEERING – ESGI Paris",
         "type": "Work-study Program",
         "description": "• Programming: PHP8, SASS, jQuery, JavaScript, TypeScript, React.js, Node.js (and MVC architectures).\n• Design and management of SQL relational databases.\n• Git / Docker."
       },
       {
-        "period": "September 2022 - June 2024",
+        "period": "09/22 - 06/24",
         "institution": "BTS SIO SLAM - F2I Paris",
         "type": "Work-study Program",
         "description": "• Programming: Java, Python, PHP, C, C#, JavaScript.\n• Database design and management (SQL, MySQL) / Analysis and modeling (UML / Merise)."
