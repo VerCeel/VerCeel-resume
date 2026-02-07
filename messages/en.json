@@ -12,11 +12,12 @@
     "title": "PROFESSIONAL EXPERIENCE",
     "items": [
       {
-        "period": "01/26 – ",
-        "position": "Fullstack Developer Intern – SVT Communication – Villebon-sur-Yvette",
-        "type": "Internship",
-        "description": "• Writing and executing test cases / test plans (functional & regression testing).\n• Test automation (Selenium, Robot Framework, CI/CD scripts).\n• Reporting and bug tracking (Jira, defect tracking) + participation in Agile reviews and meetings."
+        "period": "01/26 - present",
+        "position": "Full-Stack Developer – SVT Communication – Villebon-sur-Yvette",
+        "type": "Work-study program",
+        "description": "• Integration of an e-commerce platform with secure payment implementation using Stripe.\n• Design and development of an AI-powered chatbot to assist and support customers.\n• Enhancement of the website’s design and usability to improve user experience.\n• Contribution to the development and maintenance of front-end and back-end features."
       },
+
       {
         "period": "03/25 – 08/25",
         "position": "QA Automation Test Intern – Capgemini – Casablanca",

@@ -69,8 +69,8 @@ const NavBar = () => {
                 </Link>
               </TooltipTrigger>
               <TooltipContent
-                className="bg-neutral-200 dark:bg-neutral-800 select-none text-neutral-800 dark:text-neutral-200 px-3 py-2 rounded-md mt-2"
-                side="bottom"
+                className="bg-neutral-200 dark:bg-neutral-800 select-none text-neutral-800 dark:text-neutral-200 px-3 py-2 rounded-md mb-2"
+                side="top"
               >
                 <p>Download PDF</p>
               </TooltipContent>

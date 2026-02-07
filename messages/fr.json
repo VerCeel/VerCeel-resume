@@ -12,6 +12,13 @@
     "title": "EXPERIENCE PROFESSIONNELLE",
     "items": [
       {
+        "period": "01/26 - présent",
+        "position": "Développeur Full-Stack – SVT Communication – Villebon-sur-Yvette",
+        "type": "Alternance",
+        "description": "• Intégration d’une boutique en ligne avec mise en place du paiement sécurisé via Stripe.\n• Conception et développement d’un chatbot IA pour assister et accompagner les clients.\n• Amélioration du design et de l’ergonomie du site afin d’optimiser l’expérience utilisateur.\n• Participation au développement et à la maintenance des fonctionnalités front-end et back-end."
+
+      },
+      {
         "period": "03/25 – 08/25",
         "position": "Stage QA Automation Test – Capgemini – Casablanca",
         "type": "Stage",
@@ -63,7 +70,7 @@
       },
       {
         "category": "Projets académiques",
-        "type": "Académique",
+        "type": "Projet d'école",
         "description": "Applications web développées dans le cadre de la formation",
         "projects": [
           "• Site de restauration : Développement complet en Bootstrap, JavaScript, PHP, SQL.",

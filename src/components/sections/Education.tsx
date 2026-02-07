@@ -19,7 +19,7 @@ const Education = () => {
       {raw('items').map((item : Data, index : number) =>(
         <div className="flex flex-row mb-4 gap-4"
         key={index}>
-        <div className="w-30">
+        <div className="md:w-30 w-20">
           <p className="text-neutral-600 text-md dark:text-neutral-400">
           {item.period}
           </p>
